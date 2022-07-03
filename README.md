@@ -1,27 +1,17 @@
 # ShoppingList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+## Installation:
++ node: v16.15.1
++ npm: 8.11.0
++ angular: 14.0.0
 
-## Development server
+## Remarks: 
++ This project uses ng-bootstrap version 13.0.0-beta, since ng-bootstrap for angular 14 is not out yet (July 2022)
+    - Installed with `ng add @ng-bootstrap/ng-bootstrap@next --project shopping_list`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Concept and Background of the Project
++ This project is done to learn about reactive programming, user authentification with JSON-web-tokens and to make something useful for me and my girlfriend. The idea behind the project is to program a frontend where we (my girlfriend and I) can log in and write down items to our shopping list and either one of us could mark items as "bought", if we went to the supermarket. This requires a backend which could be found here (TODO) and this frontend page.
++ The project is based on the knowlage I have gained from the following ressources: 
+    - https://www.bezkoder.com/angular-12-jwt-auth/
+    - https://www.youtube.com/watch?v=PhggNGsSQyg (for reactive programming)
+    - 
